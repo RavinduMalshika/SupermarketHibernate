@@ -42,7 +42,7 @@ public class CustomerEntity {
     @Column(name = "PostalCode", length = 9)
     private String postalCode;
 
-    @OneToMany(mappedBy = "customerEntity", targetEntity = OrderEntity.class)
-    @ToString.Exclude
-    private List<OrderEntity> orderEntities;
+//    @OneToMany(mappedBy = "customerEntity", targetEntity = OrderEntity.class)
+//    @ToString.Exclude
+//    private List<OrderEntity> orderEntities;
 }

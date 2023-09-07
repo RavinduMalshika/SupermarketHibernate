@@ -10,7 +10,7 @@ import java.util.List;
 public class OrderDetailDaoImpl implements OrderDetailDao {
     @Override
     public boolean save(OrderDetailEntity orderDetailEntity, Session session) {
-        String id = (String) session.save(orderDetailEntity);
+        Object id = session.save(orderDetailEntity);
         if(id != null) {
             return true;
         } else {
