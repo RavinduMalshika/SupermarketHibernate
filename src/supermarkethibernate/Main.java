@@ -1,6 +1,7 @@
-import lombok.Getter;
+package supermarkethibernate;
+
 import org.hibernate.Session;
-import util.SessionFactoryConfiguration;
+import supermarkethibernate.util.SessionFactoryConfiguration;
 
 public class Main {
     public static void main(String[] args) {

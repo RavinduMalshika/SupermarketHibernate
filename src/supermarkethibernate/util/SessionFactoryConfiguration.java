@@ -1,9 +1,9 @@
-package util;
+package supermarkethibernate.util;
 
-import entity.CustomerEntity;
-import entity.ItemEntity;
-import entity.OrderDetailEntity;
-import entity.OrderEntity;
+import supermarkethibernate.entity.CustomerEntity;
+import supermarkethibernate.entity.ItemEntity;
+import supermarkethibernate.entity.OrderDetailEntity;
+import supermarkethibernate.entity.OrderEntity;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;

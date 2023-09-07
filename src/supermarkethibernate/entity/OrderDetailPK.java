@@ -1,4 +1,4 @@
-package entity;
+package supermarkethibernate.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;

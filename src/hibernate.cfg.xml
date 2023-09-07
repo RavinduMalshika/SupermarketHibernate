@@ -12,6 +12,6 @@
         <property name="connection.password">SwEng123@#</property>
         <property name="show_sql">true</property>
         <property name="format_sql">true</property>
-        <property name="hbm2ddl.auto">create</property>
+        <property name="hbm2ddl.auto">update</property>
     </session-factory>
 </hibernate-configuration>
